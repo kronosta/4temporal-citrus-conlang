@@ -20,14 +20,14 @@ the starting timeline is chosen, which is why no one in this timeline remembers 
 ones (because we all started on the same Y, Z, and W coordinates).
 
 Some English terminology for the time axes:
-{|
-| Past | Present | Future | Axis A
+{| class="wikitable"
+| Past || Present || Future || Axis A
 |-
-| Krighteng | Troteng | Hotejeng | Axis B
+| Krighteng || Troteng || Hotejeng || Axis B
 |-
-| Dastemme | Desentemme | Duturemme | Axis C
+| Dastemme || Desentemme || Duturemme || Axis C
 |-
-| Tevvelnipe | Gesselnipe | Zuttelnipe | Axis D
+| Tevvelnipe || Gesselnipe || Zuttelnipe || Axis D
 |}
 
 Causality happens on all axes at once, and diagonals have a sort of "compound causality"
@@ -55,13 +55,14 @@ long on Axis A. Thus you can write it as a 4x4 table with each entry having mult
 The 4x4 table form can be used to demonstrate the structure on Axes C and D,
 which sorts all meaning into 16 2-part categories.
 
-{|
+{| class="wikitable"
 | True descriptions of space (where things are, how things are arranged)
 | True descriptions of time (events and actions)
 | True descriptions of neither space nor time (universal truths)
 | Self-referential language that is true and unopinionated (like "I was being sarcastic")
 |-
-| Objectively false descriptions of space| Objectively false descriptions of time
+| Objectively false descriptions of space
+| Objectively false descriptions of time
 | Objectively false descriptions of neither space nor time (universal lies)
 | Self-referential language that is objectively false and unopinionated
 (like "I was being sarcastic" when you aren't being sarcastic)
@@ -148,7 +149,8 @@ A few other rules:
 : a row of empty meanings ended by 23. Usually native speakers are always able to find something
 : to put in the entries that relates to the conversation, but you can always just put "1+1=2"
 : in the universal truths box for example. 
-* When writing in 4x4 table form, the following system is used to choose the script: {|
+* When writing in 4x4 table form, the following system is used to choose the script:
+:{| class="wikitable"
 | Katakana || Katakana || Katakana || Katakana
 |-
 | Katakana || Hiragana || Hiragana || Katakana
@@ -207,12 +209,12 @@ The syllables:
 * /myð/
 
 The tones:
-- High
-- Medium
-- Low
-- Rising
-- Falling
-- Sawtooth (rise from low to high, then quickly drop down back to low and repeat)
+* High
+* Medium
+* Low
+* Rising
+* Falling
+* Sawtooth (rise from low to high, then quickly drop down back to low and repeat)
 
 The misfit syllable:
 * /tɹaɪz/
@@ -260,7 +262,7 @@ Japanese's basic Hiragana and Katakana syllables are used for the first 46 sylla
 Unicode operators are used to fill the rest of Hiragana, and APL symbols are used to fill Katakana.
 The 61st symbol, being special in its pronunciation, gets its characters from the Geometric Shapes Unicode block/
 
-{|
+{| class="wikitable"
 ! Symbol Number !! Hiragana !! Katakana !! Axis A !! Axis B !! Axis C !! Axis D
 |-
 | 1 || あ || ア || G sharp 1 || /ti/ - modal - modal || /mɛs/ - high || /vwy/
@@ -401,16 +403,34 @@ There are three sources of words:
 : grouped in pairs to form the bytes of a UTF-8 encoded string to run through a Perl interpreter via eval.
 : "use utf8" and "use feature 'unicode_strings'" are considered to be already run It must produce a list
 : reference with two elements:
-** Index 0: Either the native name of the language, or another list reference of the same form
-*: unambiguously referring to the language
-** Index 1: A string in the language
-** Index 2 (Usually optional, but sometimes required for encoding languages with no canonical
-*: text form): Another list reference of the same form, detailing how to decode into the proper language.
+:* Index 0: Either the native name of the language, or another list reference of the same form
+:: unambiguously referring to the language
+:* Index 1: A string in the language
+:* Index 2 (Usually optional, but sometimes required for encoding languages with no canonical
+:: text form): Another list reference of the same form, detailing how to decode into the proper language.
 
+== Speaking in linear time ==
+Since humanity doesn't have 4 dimensions of time to work with, some might come to the conclusion that
+we cannot ever speak, hear, or experience this language. They're kinda right, but we can approximate
+it by linearizing it.
 
+Linearizing ⊁まも▣こ⊄ is essentially the following process:
+* Turn Axis A into music in some way (could be a real microtonally-capable instrument or some kind
+: of software), and play syllables as if you were reading a book past to future, Krighteng to Hotejeng,
+: Dastemme to Duturemme, Tevvelnipe to Zuttelnipe.
+* Say "break".
+* Pronounce syllables of Axis B in a similar order to Axis A, except this time Krighteng to Hotejeng
+: takes priority before past to future.
+* Say "break" again.
+* Pronounce syllables of Axis C in a similar order to Axis A, except this time Dastemme to Duturemme
+: takes priority before past to future.
+* Say "break" again.
+* Pronounce syllables of Axis D in a similar order to Axis A, except this time Tevvelnipe to Zuttelnipe
+: takes priority before past to future.
 
-
-
-
-
+If you're making something like a text-to-speech program, you can always generate waveforms on the fly
+for diagonal or curved timelines. A multiplicative 4-way Cartesian product thingie on the waveforms
+with amplitude measured -1.0 to 1.0 may be of use for having separate sounds on the four orthagonal time
+axes, though sounds will become extremely quiet when they lie close to a zero value on a different
+axis' waveform. This entire paragraph is in English and means something.
 ```
