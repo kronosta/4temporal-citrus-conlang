@@ -612,7 +612,7 @@ First we have to separate the sentence into parts based on truth, opinion, space
 | ( About three things I was absolutely positive: +#4. ) [#7] I don't know how potent +#5 might be. ''(again debatable, but I think this is more of an objective introspection into thoughts that she is having than an opinion. It is an objectively true fact that she is thinking these three things, and this sentence doesn't project an opinion onto this fact. This also isn't self-referential since it doesn't talk about her use of language)''
 | I outlined three organized thoughts in the sentence: +#4 ''(We have to make something up here since no self-referential language exists in this excerpt. I have some better things to say but they should go in the opinion section.)''
 |-
-| Edward was a centaur in disguise. ''(Now for the lies, these are required for the sentence to be grammatically correct, and we can kinda go wild here.)''
+| Edward was an xlalarune in disguise. ''(Now for the lies, these are required for the sentence to be grammatically correct, and we can kinda go wild here.)''
 | ( In 1776, Julius Caesar was elected president. ) [#6]
 | You can link two torispheres together without any spheritori in between.
 | [#6] is a compound sentence.
@@ -655,7 +655,8 @@ Now to reword this to fit the lexicon and structures closer:
 Separating into parts of speech and "the connection":
 {| class="wikitable"
 |
-Nouns: [ <code>["English", "Edward"]</code>, <code>["English", "vampire"]</code>, "part", "water" ]
+Nouns: [ <code>["English", "Edward"]</code>, <code>["English", "vampire"]
+</code>, "part", "water" ]
 
 Verbs: [ "is"[past], "need"[past] ]
 
@@ -726,19 +727,26 @@ S25 S22 (
 ) S31 S1 S2 S8 S14 S1 S14
 I cover[past] 3 build[used as adjective "built" to mean "orderly" I guess] thought in sentence: +#4
 |-
-| +#8 is[past] <code>["English", "centaur"]</code> cover[past] in story. [I unironically love the idea of saying you're "covered in story" instead of "in disguise". Could just be "in story" but that doesn't sound as funny.
-| ( Year 1776, <code>["English", "Julius Caesar"]</code> is[past] put on country. ) [#6]
+| +#8 is[past] <code>["", "xlalarune"]</code> cover[past] in story. [I
+unironically love the idea of saying you're "covered in story" instead of
+"in disguise". Could just be "in story" but that doesn't sound as funny.
+Also note that the absence of a target language is notated as the empty
+string.
+| ( Year 1776, <code>["English", "Julius Caesar"]</code> is[past] put on
+country. ) [#6]
 | You can put 2 torisphere together with no spheritorus between.
 | [#6] is together sentence.
 |-
-| I love[past] +#8 with no condition and no allow[as adjective allowed] change.
+| I love[past] +#8 with no condition and no allow[as adjective allowed]
+change.
 | Depend[as adjective depending] age and my sense love, I might go.
 | I like order[present] my thought clean[as adverb cleanly].
 | +#7 is order[past] not clear[as adverb clearly].
 |-
 | +#8 smell[present] bad.
 | I feel bad about +#8[as adjective Edward's] life[as adjective] length.
-| I should[adverb (not technically but modifies a verb like an adverb should)] give +#8 body water
+| I should[adverb (not technically but modifies a verb like an adverb
+should)] give +#8 body water
 | I hate my thought
 |}
 
@@ -807,11 +815,15 @@ Adjectives: [ 1, 2, 3 ]
 Connection:
 S29 S14 S1 S14 S25 S25
 :''(1st thought is "Edward is vampire")''
-:S22 ( S22 ( S22 ( S17 S14 S1 S14 , S15 S14 S1 S14 ) , S16 S14 S1 S14 ) , S31 S1 S1 S8 S14 S1 S14 )
+:S22 ( S22 ( S22 ( S17 S14 S1 S14 , S15 S14 S1 S14 ) , S16 S14 S1 S14 ) ,
+S31 S1 S1 S8 S14 S1 S14 )
 :''(and 2nd thought is "Part of him needed my body water")''
-:S22 ( S22 ( S22 ( S17 S14 S2 S14 , S15 S14 S1 S14 ) , S16 S14 S1 S14 ) , S31 S1 S1 S8 S14 S2 S14 )
-:''(and 3rd thought is "I was unconditionally and irrevocably in love with him")''
-:S22 ( S22 ( S22 ( S17 S14 S3 S14 , S15 S14 S1 S14 ) , S16 S14 S1 S14 ) , S31 S1 S3 S8 S14 S1 S14 )
+:S22 ( S22 ( S22 ( S17 S14 S2 S14 , S15 S14 S1 S14 ) , S16 S14 S1 S14 ) ,
+S31 S1 S1 S8 S14 S2 S14 )
+:''(and 3rd thought is "I was unconditionally and irrevocably in love with
+him")''
+:S22 ( S22 ( S22 ( S17 S14 S3 S14 , S15 S14 S1 S14 ) , S16 S14 S1 S14 ) ,
+S31 S1 S3 S8 S14 S1 S14 )
 |
 Nouns: [ "thing", "might" ]
 
@@ -826,7 +838,8 @@ Pronouns [ "I" ]
 Connection:<br/>
 S29 S14 S1 S14 S25 S22 (
 :S22 ( S21 S14 S1 S14 , S16 S14 S1 S14 ) , ''(I was)''
-:S22 ( S22 ( S17 S14 S1 S14 , S17 S14 S2 S14 ) , S15 S14 S1 S14 ) "(sure of 3 things)"
+:S22 ( S22 ( S17 S14 S1 S14 , S17 S14 S2 S14 ) , S15 S14 S1 S14 ) "(sure
+of 3 things)"
 ) S31 S1 S2 S8 S14 S1 S14 ''(and [the 3 thought list])''<br/>
 S22 (
 :S22 ( S18 S14 S1 S14 , S22 ( S21 S14 S1 S14 , S16 S14 S2 S14 ) ) ,
@@ -848,24 +861,29 @@ S25 S22 (
 :S22 ( S21 S14 S1 S14 , S16 S14 S1 S14 ) , ''(I covered)''
 :S22 (
 ::S22 ( S17 S14 S1 S14 , S17 S14 S2 S14 ) , ''(3 built)''
-::S22 ( S15 S14 S1 S14 , S22 ( S20 S14 S1 S14 , S15 S14 S2 S14 ) ) ''(thought in sentence)''
+::S22 ( S15 S14 S1 S14 , S22 ( S20 S14 S1 S14 , S15 S14 S2 S14 ) )
+''(thought in sentence)''
 :)
 ) S31 S1 S2 S8 S14 S1 S14
-I cover[past] 3 build[used as adjective "built" to mean "orderly" I guess] thought in sentence: +#4
+I cover[past] 3 build[used as adjective "built" to mean "orderly" I guess]
+thought in sentence: +#4
 |-
-| +#8 is[past] <code>["English", "centaur"]</code> cover[past] in story. [I unironically love the idea of saying you're "covered in story" instead of "in disguise". Could just be "in story" but that doesn't sound as funny.
-| ( Year 1776, <code>["English", "Julius Caesar"]</code> is[past] put on country. ) [#6]
+| +#8 is[past] <code>["", "xlalarune"]</code> cover[past] in story.
+| ( Year 1776, <code>["English", "Julius Caesar"]</code> is[past] put on
+country. ) [#6]
 | You can put 2 torisphere together with no spheritorus between.
 | [#6] is together sentence.
 |-
-| I love[past] +#8 with no condition and no allow[as adjective allowed] change.
+| I love[past] +#8 with no condition and no allow[as adjective allowed]
+change.
 | Depend[as adjective depending] age and my sense love, I might go.
 | I like order[present] my thought clean[as adverb cleanly].
 | +#7 is order[past] not clear[as adverb clearly].
 |-
 | +#8 smell[present] bad.
 | I feel bad about +#8[as adjective Edward's] life[as adjective] length.
-| I should[adverb (not technically but modifies a verb like an adverb should)] give +#8 body water
+| I should[adverb (not technically but modifies a verb like an adverb
+should)] give +#8 body water
 | I hate my thought
 |}
 
