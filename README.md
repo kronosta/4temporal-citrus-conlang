@@ -887,7 +887,7 @@ should)] give +#8 body water
 | I hate my thought
 |}
 
-Fully translated:
+1/16th translated:
 {| "wikitable"
 |
 <pre>
