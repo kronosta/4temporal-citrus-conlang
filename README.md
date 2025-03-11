@@ -210,16 +210,16 @@ have the equivalent of something in English having both a truth and a lie
 in the same sentence, or both a fact and an opinion, or a whole multitude
 of other important things.
 * Syllable 32 - Takes another syllable and two phrase arguments a and b,
-*: establishes a different logical relation between phrases:
+: establishes a different logical relation between phrases:
 ** Syllable 1 - a NAND b
 ** Syllable 2 - a NOR b
 ** Syllable 3 - a NXOR b
 ** Syllable 4 - a IMPLIES b
 ** Syllable 5 - NOT (a IMPLIES b)
 ** Regular old negation can be done with a XOR 1 or various other
-**: constructs. One interesting detail is that the 1st person singular
-**: pronoun んここ▣むみな⊋ is a grammatical substitute for an entire
-**: objectively true phrase.
+*: constructs. One interesting detail is that the 1st person singular
+*: pronoun んここ▣むみな⊋ is a grammatical substitute for an entire
+*: objectively true phrase.
 
 
 It's possible for the connection to contain multiple trees. If this is
@@ -563,12 +563,12 @@ citrus-conlang/blob/main/Lexicon%20Generator/words-generated.tsv]
 13 in between representing digits 0-C.
 * Foreign words/concepts can be represented in a rather complicated way.
 : It must start with syllable 61, then syllables 1-16 should represent
-hexadecimal digits 0-F further on,
+: hexadecimal digits 0-F further on,
 : grouped in pairs to form the bytes of a UTF-8 encoded string to run
-through a Perl interpreter via eval.
+: through a Perl interpreter via eval.
 : "use utf8" and "use feature 'unicode_strings'" are considered to be
-already run It must produce a list
-: reference with two elements:
+: already run. It must produce a list
+: reference with the following elements:
 :* Index 0: Either the native name of the language, or another list
 reference of the same form
 :: unambiguously referring to the language
