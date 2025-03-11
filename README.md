@@ -209,6 +209,26 @@ mapped to the number if Axis B was indexed with 8. This can be used to
 have the equivalent of something in English having both a truth and a lie
 in the same sentence, or both a fact and an opinion, or a whole multitude
 of other important things.
+* Syllable 32 - Takes another syllable and two phrase arguments a and b,
+*: establishes a different logical relation between phrases:
+** Syllable 1 - a NAND b
+** Syllable 2 - a NOR b
+** Syllable 3 - a NXOR b
+** Syllable 4 - a IMPLIES b
+** Syllable 5 - NOT (a IMPLIES b)
+** Regular old negation can be done with a XOR 1 or various other
+**: constructs. One interesting detail is that the 1st person singular
+**: pronoun んここ▣むみな⊋ is a grammatical substitute for an entire
+**: objectively true phrase.
+
+
+It's possible for the connection to contain multiple trees. If this is
+the case, only the last one is treated as the sentence. However,
+you can represent multiple sentences by combining them with "and" clauses
+with Syllable 25. This also means it's possible to "hide" grammatical
+phrases by not including them in anything, but these will still be
+interpreted by the listener, usually indicating hesitation to say
+it.
 
 If the same phrase is referenced twice by these trees, it's treated like
 the same object. So when saying "I just bought a large box of candy. I
