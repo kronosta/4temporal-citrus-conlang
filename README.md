@@ -176,6 +176,7 @@ level.
 ** Adjective-noun : The adjective modifies the noun. This produces a noun.
 ** Adjective-adjective : Both adjectives apply. This produces an adjective.
 ** Adverb-verb : The adverb modifies the verb. This produces a verb.
+** Adverb-adjective : The adverb modifies the adjective.
 ** Adverb-adverb : Both adverbs apply. This produces an adverb.
 ** Preposition-noun : The preposition takes the noun as an argument
 ("toward the fields"). This produces a preposition
