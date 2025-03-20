@@ -6,4 +6,4 @@ This is a very messy and disorganized conlang I mostly developed in a day. I did
 
 Documentation located [here](Docs.txt).
 
-Lexicon located [here](Lexicon%20Generator/words1.tsv)
+Lexicon located [here](Lexicon%20Generator/words-generated.tsv)
